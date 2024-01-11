@@ -8,7 +8,7 @@
 /* ------------------------------------------------------------
 1. Fonts
 2. General Styles
-3. Page loadig animation
+3. Page loading animation
 4. Header
 5. Page Content
 6. Elements
@@ -213,7 +213,7 @@ input[type="submit"]:focus {
 
 
 /* ============================================================================= 
-3. Page loadig animation
+3. Page loading animation
 ============================================================================= */
 .no-js .preloader,
 .no-js .preloader-portfolio { 
@@ -1384,12 +1384,12 @@ textarea.form-control, textarea.form-control:focus {
 
 /* --- End of Skills --- */
 
-/* --- Knowledges --- */
-.knowledges {
+/* --- Knowledge --- */
+.Knowledge {
   list-style: none;
 }
 
-.knowledges li {;
+.Knowledge li {
   display: inline-block;
   background-color: #f58545;
   border-radius: 3px;
@@ -1398,7 +1398,7 @@ textarea.form-control, textarea.form-control:focus {
   margin: 3px 2px;
   font-size: 13px;
 }
-/* --- End of Knowledges --- */
+/* --- End of Knowledge --- */
 
 /* --- Certificates --- */
 .certificate-item {
@@ -2148,6 +2148,7 @@ textarea.form-control, textarea.form-control:focus {
   border: 1px solid #9e9e9e;
   display: block;
   -webkit-backface-visibility: visible;
+  backface-visibility: visible;
   transition: opacity 200ms ease;
   border-radius: 30px;
 }
