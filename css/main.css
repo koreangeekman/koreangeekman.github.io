@@ -1542,6 +1542,11 @@ input[type="text"],
 
 .portfolio-filters li.active {
   opacity: 1;
+  /* font-weight: bold; */
+}
+
+.portfolio-filters li.active a {
+  color: #f58545;
 }
 
 .portfolio-filters li a {

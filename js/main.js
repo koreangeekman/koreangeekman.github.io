@@ -15,9 +15,11 @@
         if (portfolio_grid) {
 
             portfolio_grid.shuffle({
-                speed: 450,
+                speed: 320,
                 itemSelector: 'figure'
             });
+
+            portfolio_grid.shuffle('shuffle', "category_select"); // default category override all
 
             portfolio_filter.on("click", ".filter", function (e) {
                 portfolio_grid.shuffle('update');
