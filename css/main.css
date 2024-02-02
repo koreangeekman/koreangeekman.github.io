@@ -985,8 +985,14 @@ input[type="text"],
 
 .info-list .title {
   color: #f58545;
-  margin-right: 5px;
+  /* margin-right: 5px; */
   font-weight: 600;
+  margin-bottom: 0;
+}
+
+.info-list .value {
+  margin-right: 5px;
+  margin-bottom: 1rem;
 }
 
 /* --- End Simple Info List --- */

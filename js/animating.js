@@ -339,8 +339,10 @@ var PageTransitions = (function ($, options) {
                 outClass = 'animated-section-rotateFall animated-section-ontop';
                 break;
             case 37:
-                inClass = 'animated-section-rotateInNewspaper animated-section-delay500';
-                outClass = 'animated-section-rotateOutNewspaper';
+                // inClass = 'animated-section-rotateInNewspaper animated-section-delay500';
+                // outClass = 'animated-section-rotateOutNewspaper';
+                inClass = 'animated-section-rotateCubeTopIn';
+                outClass = 'animated-section-rotateCubeTopOut animated-section-ontop';
                 break;
             case 38:
                 inClass = 'animated-section-moveFromRight';
