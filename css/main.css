@@ -345,11 +345,12 @@ input[type="submit"]:focus {
   ul.main-menu a:focus,
   ul.main-menu a:hover {
     color: #f58545;
+    font-weight: bold;
   }
 
   ul.main-menu .menu-icon {
     display: block;
-    font-size: 30px;
+    font-size: 3rem;
   }
 
   ul.main-menu .link-text {
@@ -2889,7 +2890,7 @@ blockquote {
     visibility: visible;
     opacity: 1;
     color: #eee;
-    font-size: 11px;
+    font-size: .8rem;
     padding: 8px 0 5px;
     background: transparent;
     box-shadow: none;
